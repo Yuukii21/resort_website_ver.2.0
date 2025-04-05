@@ -1,0 +1,133 @@
+::placeholder{
+   color: rgb(122, 86, 86);
+}
+body {
+   background-image: url(Highland-Bali-Villas-Resort-and-Spa19.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.box {
+   width: 1400px;
+   padding: 10px 50px;
+}
+.box1 {
+   height: 100px;
+   width: 100%;
+   background-color: rgb(243 253 250 / 70%);
+   border:rgb(237 241 239 / 21%) solid;
+   border-radius: 20px;
+   position: relative;
+}
+.box1 p {
+   font-size: 50px;
+   font-family:'Courier New', Courier, monospace;
+   font-weight: bolder;
+   color: #000000;
+   text-align: center;
+   margin: 22px;
+}
+.box2 {
+   display: flex;
+   justify-content: center; 
+   align-items: center; 
+   width: 100%; 
+}
+.box2 ul {
+   display: flex;
+   justify-content: center; 
+   padding: 5px;
+   background-color: rgb(243 253 250 / 70%);
+   border-radius: 20px;
+   border: rgb(237 241 239 / 21%) solid;
+}
+.box2 ul li{
+   list-style: none;
+   display: inline-block;
+   margin: 10px 20px;
+   position: relative;
+}
+.box2 ul li a{
+   text-decoration: none;
+   color: #000000;
+   font-weight: bold;
+}
+.box2 ul li::after{
+   content: '';
+   height: 3px;
+   width: 0;
+   color: #000000;
+   position: absolute;
+   left: 0;
+   bottom: -5px;
+   transition: 0.5s;
+}
+.box2 ul li:hover:after{
+   width: 100%;
+}
+.container {
+   height: 460px;
+   width: 1400px;
+   background-color: rgb(243 253 250 / 70%);
+   border:rgb(237 241 239 / 21%) solid;
+   border-radius: 20px;
+   color: #000000;
+   font-family: monospace;
+   margin: 5px;
+   margin-bottom: 20px;
+}
+.container h1{
+   text-align: center;
+   font-family:'Courier New', Courier, monospace;
+}
+.cont2 div {
+   margin-left: 120px;
+   margin-bottom: 50px;
+   width: 300px;
+   display: inline-block;
+}
+.cont2 div input {
+   height: 30px;
+   width: 100%;
+   font-family: monospace;
+   background-color: rgb(243 253 250 / 70%);
+   border:rgb(237 241 239 / 21%) solid;
+   border-radius: 20px;
+   font-size: 20px;
+   color: rgb(122, 86, 86);
+   padding: 3px 0 3px 10px;
+   margin-top: 10px;
+}
+.cont2 div select{
+   height: 50px;
+   width: 100%;
+   font-family: monospace;
+   background-color: rgb(243 253 250 / 70%);
+   border:rgb(237 241 239 / 21%) solid;
+   border-radius: 20px;
+   font-size: 20px;
+   color: rgb(122, 86, 86);
+   padding: 3px 0 3px 10px;
+   margin-top: 10px;
+}
+.cont2 div span{
+   width: 100%;
+   font-family: monospace;
+   color: #000000;
+   font-size: 25px;
+}
+
+
+#submit{
+   margin-left: 33px;
+   text-align: center;
+}
+#submit input{
+   font-family: monospace;
+   text-align: center;
+   width: 150px;
+   height: 40px;
+   border:rgb(237 241 239 / 21%) solid;
+   background-color: rgb(243 253 250 / 70%);
+   color: #000000;
+}

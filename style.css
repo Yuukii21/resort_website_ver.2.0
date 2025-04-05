@@ -1,0 +1,172 @@
+body {
+   background-image: url(Highland-Bali-Villas-Resort-and-Spa19.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.box {
+   width: 1400px;
+   padding: 10px 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.box1 {
+   height: 100px;
+   width: 100%;
+   background-color: rgb(243 253 250 / 70%);
+   border: rgb(237 241 239 / 21%) solid;
+   border-radius: 20px;
+   position: relative;
+}
+
+.box1 p {
+   font-size: 50px;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bolder;
+   color: #000000;
+   text-align: center;
+   margin: 22px;
+}
+
+.box2 {
+   width: 100%;
+   display: flex;
+   justify-content: center; 
+}
+
+.box2 ul {
+   height: 100%;
+   width: auto;
+   border-radius: 20px;
+   background-color: rgb(243 253 250 / 70%);
+   padding: 5px;
+   border: rgb(237 241 239 / 21%) solid;
+   display: flex;
+   justify-content: center; 
+}
+
+.box2 ul li {
+   list-style: none;
+   margin: 10px 20px;
+   position: relative;
+}
+
+.box2 ul li a {
+   text-decoration: none;
+   color: #000000;
+   font-weight: bold;
+}
+
+.box2 ul li::after {
+   content: '';
+   height: 3px;
+   width: 0;
+   background: #000000;
+   position: absolute;
+   left: 0;
+   bottom: -5px;
+   transition: 0.5s;
+}
+
+.box2 ul li:hover:after {
+   width: 100%;
+}
+
+.container {
+   width: 850px;
+   background-color: rgb(243 253 250 / 70%);
+   border: rgb(237 241 239 / 21%) solid;
+   border-radius: 20px;
+   color: #000000;
+   font-family: monospace;
+   margin: 5px;
+   margin-bottom: 50px;
+   float: left;
+   text-align: center;
+}
+
+.container h1 {
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.container h3 {
+   margin-top: 0px;
+}
+
+.container img {
+   width: 400px;
+   margin-top: 40px;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 20px;
+}
+
+.container h2 {
+   font-size: 40px;
+   margin-top: 0px;
+}
+
+.container p {
+   margin-top: 0;
+   margin-left: 50px;
+   margin-right: 50px;
+   font-size: 20px;
+}
+
+.box-container {
+   display: flex;
+   justify-content: center;  
+   gap: 20px;                 
+   flex-wrap: wrap;          
+   margin-top: 0;
+}
+
+.box3 {
+   height: 400px;
+   width: 500px;
+   background-color: rgb(243 253 250 / 70%);
+   border: rgb(237 241 239 / 21%) solid;
+   border-radius: 20px;
+   margin: 5px;
+}
+
+.box3 img {
+   height: 90%;
+   width: 95%;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin: 5px;
+   border-radius: 20px;
+}
+
+.box4 {
+   height: 400px;
+   width: 500px;
+   background-color: rgb(243 253 250 / 70%);
+   border: rgb(237 241 239 / 21%) solid;
+   border-radius: 20px;
+   margin: 5px;
+}
+
+.box4 img {
+   height: 75%;
+   width: 95%;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin: 5px;
+   border-radius: 20px;
+}
+
+.box4 p {
+   font-weight: bolder;
+   color: #000000;
+   font-size: 20px;
+   text-align: center;
+}

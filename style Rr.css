@@ -1,0 +1,94 @@
+body {
+   background-image: url(Highland-Bali-Villas-Resort-and-Spa19.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+
+ }
+ .box {
+    width: 1400px;
+    padding: 10px 50px;
+ }
+ .box1 {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(243 253 250 / 70%);
+    border:rgb(237 241 239 / 21%) solid;
+    border-radius: 20px;
+    position: relative;
+ }
+ .box1 p {
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: #000000;
+    text-align: center;
+    margin: 22px;
+ }
+ .box2 {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+ .box2 ul{
+    height: 100%;
+    width: auto;
+    border-radius: 20px;
+    background-color: rgb(243 253 250 / 70%); 
+    padding: 5px; 
+    border:rgb(237 241 239 / 21%) solid;
+ }
+ .box2 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+    position: relative;
+ }
+ .box2 ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+ }
+ .box2 ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #000000;;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+ }
+ .box2 ul li:hover:after{
+    width: 100%;
+ }
+ .container {
+    height: 460px;
+    width: 1400px;
+    background-color: rgb(243 253 250 / 70%);
+    border:rgb(237 241 239 / 21%) solid;
+    border-radius: 20px;
+    color: #000000;
+    font-family: monospace;
+    margin: 5px;
+    margin-bottom: 20px;
+ }
+ .container img {
+    height: 400px;
+    width: 600px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 20px;
+    float: right;
+ }
+ .container h1{
+    float: left;
+    font-size: 50px;
+    margin-left: 50px;
+ }
+ .container h2{
+    float: left;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
